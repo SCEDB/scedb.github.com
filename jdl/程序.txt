@@ -1,0 +1,129 @@
+<!--diary-->
+<div id="diary" class="diary">
+	<div class="container">
+		<div class="label-7"> </div>
+		<div class="label-8"> </div>
+		<h3><span class="left-icon"> </span>DIARY<span class="right-icon">  </span><div class="clearfix"> </div></h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		<div class="conatct-form">
+			<ul class="form">
+				<li>
+				<input type="text" class="text" value="Name*" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name*';}" >
+				</li>
+				<li>
+				<input type="text" class="text" value="Email*" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email*';}" >
+				</li>
+				<li>
+				<textarea value="Message*:" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Message*';}">Message*</textarea>
+				</li>
+				<div class="sub-button">
+					<input type="submit" value="SEND">
+				</div>
+			</ul>
+		</div>
+		<div class="copyrights">
+		<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</div>
+<!--/diary-->
+
+
+
+
+
+
+<style >
+		*{margin:0;padding:0}
+body{font-size:14px;font-family:"微软雅黑";}
+.box{width:960px;height:2000px;margin:100px auto;position:relative;z-index:1;}
+
+/*内容发布区域*/
+.box .boxcenter{width:500px;height:200px;background:#fff;position:absolute;top:80px;left:180px;border:1px solid green;border-radius:6px;}
+.box .boxcenter .boxc_t{height:30px;line-height:30px;}
+.box .boxcenter .boxc_t h4{padding-left:20px;background:#BDBDBD;border-top-left-radius:6px;border-top-right-radius:6px;}
+.box .boxcenter .boxc_c{width:460px;height:100px;border:1px solid #BDBDBD;margin:8px auto;text-indent:10px;box-shadow:0 0 4px #BDBDBD;}
+.box .boxcenter .boxc_b{width:80px;height:30px;position:absolute;right:10px;bottom:8px;}
+.box .boxcenter .boxc_b a{font-size:14px;color:#fff;line-height:30px;background:#BDBDBD;border-radius:6px;display:block;text-align:center;text-decoration:none;}
+.box .boxcenter .boxc_b a:hover{background:#BDBDBD;}
+.box .timeline{width:60px;height:100%;position:absolute;top:100px;left:80px;border-right:2px solid #BDBDBD;}/**/
+.timeline .timeline_t{width:50px;height:50px;border-radius:50%;border:1px solid #fff;}
+.timeline .nextbox{width:380px;height:80px;position:absolute;top:260px;left:60px;}
+.a{width:380px;height:80px;background:#BDBDBD;border-radius:6px;margin-top:30px;font-size:16px;line-height:20px;text-indent:20px;word-break:break-all;position:relative;left:6px;}
+.a .b{width:6px;height:6px;border-radius:50%;border:2px solid #fff;background:#BDBDBD;position:absolute;top:35px;left:-10px;}
+#time{font-size:20px;color:#ababab;}
+#hour{font-size:12px;color:#ababab;}
+</style>
+
+<div class="box">
+
+	<!--内容发布区域-->
+	<div class="boxcenter">
+		<div class="boxc_t"><h4>What happend...</h4></div>
+		<div class="boxc_c" contenteditable="true" id="aa"></div>
+		<div class="boxc_b"><a href="#">Send</a></div>
+	</div>
+
+
+
+
+
+
+<div class="clearfix col-md-6 about-right">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus, ligula ut viverra vol.
+					Felis ipsum dignissim quam, sed euismod orci lorem nec ligula. Fusce sit amet faucibus nunc.
+					 Suspendisse nibh nisi,iverra in ligula vel, laciniavestibulum nibh.Class
+					 aptent taciti sociosqu ad litora torquent per conubia nostra, 
+					per inceptos himenaeosProin quis erat sit amet 
+					massa dapibus porttitor.abcdefghihklidhri4fheosifoihg;roi
+					jfeowiaj;foeihgoiahsf;oaihg;oiwhao;eihgoasihn;ogirhw;oirhe;lsknr
+					eith;wolkanr;liesth4o
+					ksfoi43qhagkrwejhzoivudfgstk5wnivfudsg5w3ijktblewuqrglqu</p>
+				
+			</div>
+
+
+
+
+
+
+
+<script type="text/javascript"> 
+        var curIndex = 0; 
+        var timeInterval = 1000; 
+        var arr = new Array(); 
+        arr[0] = "images/jj1.jpg"; 
+        arr[1] = "images/jj2.jpg"; 
+        setInterval(changeImg,timeInterval); 
+        function changeImg() { 
+            var obj = document.getElementById("obj"); 
+            if (curIndex == arr.length-1) { 
+                curIndex = 0; 
+            } else { 
+                curIndex += 1; 
+              } 
+            obj.src = arr[curIndex]; 
+        } 
+    </script>
+
+<img id = "obj" src = "images/jj1.jpg" border = 0 /></div>
+
+
+
+
